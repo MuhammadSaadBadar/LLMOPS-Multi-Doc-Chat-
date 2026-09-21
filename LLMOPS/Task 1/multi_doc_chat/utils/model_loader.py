@@ -6,7 +6,7 @@ from multi_doc_chat.utils.config_loader import load_config
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
 from multi_doc_chat.logger import GLOBAL_LOGGER as log
-from multi_doc_chat.exception.custom_exception import DocumentPortalException
+from multi_doc_chat.exceptions.custom_exception import DocumentPortalException
 
 
 class ApiKeyManager:

@@ -4,7 +4,7 @@ from typing import Iterable, List
 from langchain.schema import Document
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from multi_doc_chat.logger import GLOBAL_LOGGER as log
-from multi_doc_chat.exception.custom_exception import DocumentPortalException
+from multi_doc_chat.exceptions.custom_exception import DocumentPortalException
 from fastapi import UploadFile
 
 SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".txt"}
